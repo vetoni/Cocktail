@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Форма коктейлей</title>
+    <link href="css/general.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script/pulldown.js"></script>
+</head>
+<body>
+    <form>
+        <section class="description">
+            <h5>Описание</h5>
+            <label>
+                Название коктейля:
+                <input type="text" />
+            </label>
+            <label>
+                Альтернативные названия (через запятую):
+                <input type="text" />
+            </label>
+            <label>
+                Краткое описание:
+                <textarea></textarea>
+            </label>
+            <label>
+                Инструкция для приготовления:
+                <textarea></textarea>
+            </label>
+            <div class="logo">
+                <p class="capt">О ВКУСАХ НЕ СПОРЯТ.</p>
+                <p>Выбери свой напиток.</p>
+                <img src="img/Logo.png" alt="Лого" />
+            </div>
+        </section>
+        <section class="ingredients">
+            <h5>Ингридиенты</h5>
+            <p>
+                <span class="caption">Название:</span>
+                <span class="quantity">Кол-во:</span>
+                <span class="unit-of-meaure">Еденица:</span>
+                <span class="decoration">Украшение:</span>
+            </p>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" data-val="1" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="1" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" data-val="1" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" data-val="2" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="50" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" data-val="2" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="-" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" checked="checked" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="-" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="-" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="-" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+            <div>
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">Нет</li>
+                        <li>Bitter Lemon</li>
+                        <li>Настойка "Лимонная"</li>
+                        <li>Лимонный сок</li>
+                    </ul>
+                </div>
+                <input class="num" type="text" value="-" />
+                <div class="pulldown">
+                    <input type="text" readonly="readonly" />
+                    <ul>
+                        <li data-empty="true">-</li>
+                        <li>Стакан</li>
+                        <li>мл.</li>
+                        <li>Столовая ложка</li>
+                    </ul>
+                </div>
+                <label class="check">
+                    <input type="checkbox" /><span></span>
+                </label>
+            </div>
+        </section>
+        <section class="params">
+            <h5>Параметры</h5>
+
+            <label>Количество порций:</label>
+            <div class="pulldown">
+                <input type="text" readonly="readonly" />
+                <ul>
+                    <li>1 порция</li>
+                    <li>2 порции</li>
+                    <li>3 порции</li>
+                </ul>
+            </div>
+            <label>Время приготовления:</label>
+            <div class="pulldown">
+                <input type="text" readonly="readonly" />
+                <ul>
+                    <li>1 минута</li>
+                    <li>4 минуты</li>
+                    <li>10 минут</li>
+                </ul>
+            </div>
+            <label>Сложность приготовления:</label>
+            <div class="pulldown">
+                <input type="text" readonly="readonly" />
+                <ul>
+                    <li>Низкая (3 балла)</li>
+                    <li>Средняя (6 баллов)</li>
+                    <li>Высокая (9 баллов)</li>
+                </ul>
+            </div>
+            <label>Метод приготовления:</label>
+            <div class="pulldown">
+                <input type="text" readonly="readonly" />
+                <ul>
+                    <li>В бокале</li>
+                    <li>В блендере</li>
+                </ul>
+            </div>
+        </section>
+        <section class="foto">
+            <div>Фотография:</div>
+            <p>
+                <img src="img/Uploaded.png" />
+            </p> <a href="#">Щелкните, чтобы посмотреть в полный размер</a>
+
+            <input class="button" type="button" value="Загрузить фото" />
+        </section>
+        <div class="present">ТИП КОКТЕЙЛЯ</div>
+        <p class="degree-pre">По крепости:</p>
+        <section class="degree">
+            <label class="radio radio-cool1"><input type="radio" name="deg" /><span></span>Безалкогольные</label>
+            <label class="radio radio-cool2"><input type="radio" name="deg" /><span></span>Слабоалкогольные(6-15%)</label>
+            <label class="radio radio-cool3"><input type="radio" name="deg" /><span></span>Полукрепкие(16-22%)</label>
+            <label class="radio radio-cool4"><input type="radio" name="deg" /><span></span>Крепкие(>22%)</label>
+
+        </section>
+        <p class="onbase-pre">На основе:</p>
+        <section class="onbase">
+            <label class="radio">Абсента<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Водки<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Джина<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Виски<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Бренди<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Ликера<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Кальвадоса<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Рома<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Текилы<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Вина<input type="radio" name="base" /><span></span></label>
+            <label class="radio">Пива<input type="radio" name="base" /><span></span></label>
+        </section>
+        <span class="showlist"><a href="#">Показать списком</a></span>
+        <p class="ontype-pre">По типу:</p>
+        <section class="ontype">
+            <label class="radio">Аперитивы<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Диджестивы<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Горячие<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Молочные<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Десертные<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Слоистые<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Дейзи<input type="radio" name="tp" /><span></span></label>
+            <label class="radio">Джулепы<input type="radio" name="tp" /><span></span></label>
+        </section>
+        <span class="showlist"><a href="#">Показать списком</a></span>
+        <div class="present">ТЕГИ</div>
+        <section class="tags">
+            <label class="check">Бодрящие<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Горькие<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Для компании<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Кислые<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Лонгдринк<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Необычные по употреблению<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Овощные<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Огненные<input type="checkbox" name="tag" /><span></span></label>
+            <label class="check">Освежающие<input type="checkbox" name="tag" /><span></span></label>
+        </section>
+        <span class="showlist"><a href="#">Показать списком</a></span>
+        <div class="present">БОКАЛЫ</div>
+        <section class="glass">
+            <label class="radio">Бокал для белого вина<input type="radio" name="gl" /><span></span></label>
+            <label class="radio">Бокал для красного вина<input type="radio" name="gl" /><span></span></label>
+            <label class="radio">Бокал для слоистых коктейлей<input type="radio" name="gl" /><span></span></label>
+            <label class="radio">Бокал сауэр<input type="radio" name="gl" /><span></span></label>
+            <label class="radio">Бокал харикейн<input type="radio" name="gl" /><span></span></label>
+            <label class="radio">Граненый стакан<input type="radio" name="gl" /><span></span></label>
+        </section>
+        <span class="showlist"><a href="#">Показать списком</a></span>
+        <div class="present">УКРАШЕНИЯ</div>
+        <section class="decor">
+            <label class="check">Апельсин на бокале<input type="radio" name="dec" /><span></span></label>
+            <label class="check">Веточка мяты<input type="radio" name="dec" /><span></span></label>
+            <label class="check">Взбитые сливки с вишней<input type="radio" name="dec" /><span></span></label>
+            <label class="check">Виноград на шпажке<input type="radio" name="dec" /><span></span></label>
+            <label class="check">Вишенка на шпажке<input type="radio" name="dec" /><span></span></label>
+            <label class="check">Долька мандарина<input type="radio" name="dec" /><span></span></label>
+        </section>
+        <span class="showlist"><a href="#">Показать списком</a></span>
+        <p class="footer">
+            <input class="button" type="button" value="Добавить" />
+            <input class="button" type="button" value="Начать заново" />
+        </p>
+    </form>
+</body>
+</html>
